@@ -582,7 +582,7 @@ h1, h2, h3 {
 
 .key-name-letter, .qwerty {
     position: absolute;
-    bottom: 10px;
+    bottom: 8px;
     font-size: 24px;
     line-height: 1;
     font-weight: 800;
