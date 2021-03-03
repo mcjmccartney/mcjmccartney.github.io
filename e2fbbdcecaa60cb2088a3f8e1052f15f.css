@@ -4,7 +4,8 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
     border: 0;
     font-size: 100%;
     vertical-align: baseline;
-    background: transparent
+    background: transparent;
+    max-height: 448px;
 }
 
 * {
@@ -26,7 +27,7 @@ html, body {
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Karla', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     -webkit-text-size-adjust: 100%;
@@ -44,7 +45,7 @@ p {
 
 .button {
     display: inline-block;
-    font-size: 16px;
+    font-size: 28px;
     font-weight: 800;
     text-transform: uppercase;
     line-height: 1;
@@ -502,7 +503,7 @@ a {
 }
 
 .keys-option span {
-    font-size: 10px;
+    font-size: 20px;
     letter-spacing: .03em;
     line-height: 1;
     font-weight: 800;
@@ -581,8 +582,8 @@ h1, h2, h3 {
 
 .key-name-letter, .qwerty {
     position: absolute;
-    bottom: 13px;
-    font-size: 17px;
+    bottom: 10px;
+    font-size: 24px;
     line-height: 1;
     font-weight: 800;
     color: #1f37b8;
@@ -1226,7 +1227,7 @@ body.night, .branding.night, #header.night {
         height: 25px
     }
     .keys-option span {
-        font-size: 9px;
+        font-size: 30px;
         letter-spacing: 0
     }
     h2 {
